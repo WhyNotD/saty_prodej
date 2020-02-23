@@ -1,2 +1,2 @@
 # saty_prodej
-test
+Test project

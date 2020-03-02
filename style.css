@@ -2,13 +2,64 @@
 body {
   margin: 0 ;
   padding: 0 ;
-  font-family: 'Marcellus SC', serif;
+  font-family: 'Oxanium', serif;
   font-size: smaller;
-  background-image: url("img/background.jpg");
   
+  
+}
+.card{
+  margin-bottom: 15px;
+}
+.container-cards{
+  margin-bottom: 10px;
 }
 
 .main-nadpis{
-  background-image: linear-gradient(180deg,white, pink);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:grey;
+  color: aliceblue;
+  margin-bottom: 20px;
 }
 
+.btn-custom{
+  margin-top:2.5%;
+  float: right;
+  max-width: 40%;
+
+}
+
+.container-footer{
+  margin-top: 75px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.footer-contact{
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+}
+
+
+
+/***** MEDIA QUERY *****/
+@media (max-width:2200px){
+  .btn-custom {
+    max-width: 25%;
+  }
+}
+
+
+
+@media (max-width:1024px){
+  .btn-custom {
+    max-width: 25%;
+  }
+}
+/***** Btn custom - mid 768 display *****/
+@media (max-width:768px){
+  .btn-custom {
+    max-width: 100%;
+  }
+}

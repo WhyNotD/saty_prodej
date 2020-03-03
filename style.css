@@ -54,6 +54,13 @@ body {
 }
 
 
+/**** UPRAVA MODAL BACKGROUND ***/
+
+.modal {
+    background-image: url("/img/cool-background.png");
+}
+
+
 /***** MEDIA QUERY *****/
 
 @media (max-width:2200px) {

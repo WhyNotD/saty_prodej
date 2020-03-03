@@ -1,4 +1,4 @@
-/*FADE MODAL*/
+/*FADE MODAL
 
 $(document).ready(function() {
     $('a[href="#ex1"]').click(function() {
@@ -9,4 +9,4 @@ $(document).ready(function() {
         return false;
 
     });
-});
+});*/

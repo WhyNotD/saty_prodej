@@ -45,19 +45,13 @@ body {
     float: left;
 }
 
-.cards-in-openmodul {
-    margin-bottom: 10px;
+.saty_max_width {
+    max-width: 100%;
+    margin-bottom: 20px;
 }
 
-.btn-zavrit-grid {
-    display: grid;
-}
-
-
-/**** UPRAVA MODAL BACKGROUND ***/
-
-.modal {
-    background-image: url("/img/cool-background.png");
+.modal-header-custom {
+    display: inline;
 }
 
 

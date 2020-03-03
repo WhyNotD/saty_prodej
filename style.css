@@ -48,6 +48,10 @@ body {
     margin-bottom: 10px;
 }
 
+.btn-zavrit-grid {
+    display: grid;
+}
+
 
 /***** MEDIA QUERY *****/
 

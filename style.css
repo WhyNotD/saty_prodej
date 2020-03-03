@@ -12,6 +12,7 @@ body {
 
 .card {
     margin-bottom: 15px;
+    border-radius: 30px;
 }
 
 .container-cards {

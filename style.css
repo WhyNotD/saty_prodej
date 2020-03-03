@@ -1,68 +1,79 @@
-
 body {
-  margin: 0 ;
-  padding: 0 ;
-  font-family: 'Oxanium', serif;
-  font-size: smaller;
-  
-  
-}
-.span-strany{
-  font-size: 15px;
-}
-.card{
-  margin-bottom: 15px;
-}
-.container-cards{
-  margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxanium', serif;
+    font-size: smaller;
+    background-image: url("img/cool-background.png");
 }
 
-.main-nadpis{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color:grey;
-  color: aliceblue;
-  margin-bottom: 20px;
+.span-strany {
+    font-size: 15px;
 }
 
-.btn-custom{
-  margin-top:2.5%;
-  float: right;
-  max-width: 40%;
-
+.card {
+    margin-bottom: 15px;
 }
 
-.container-footer{
-  margin-top: 75px;
-  margin-bottom: 50px;
-  text-align: center;
+.container-cards {
+    margin-bottom: 10px;
 }
 
-.footer-contact{
-  font-size: 15px;
-  font-weight: bold;
-  float: left;
+.main-nadpis {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    color: aliceblue;
+    margin-bottom: 20px;
 }
 
+.btn-custom {
+    margin-top: 2.5%;
+    float: right;
+    max-width: 40%;
+}
+
+.container-footer {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer-contact {
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+
+.cards-in-openmodul {
+    margin-bottom: 10px;
+}
 
 
 /***** MEDIA QUERY *****/
-@media (max-width:2200px){
-  .btn-custom {
-    max-width: 25%;
-  }
+
+@media (max-width:2200px) {
+    .btn-custom {
+        max-width: 25%;
+    }
+}
+
+@media (max-width:1024px) {
+    .btn-custom {
+        max-width: 25%;
+    }
 }
 
 
-
-@media (max-width:1024px){
-  .btn-custom {
-    max-width: 25%;
-  }
-}
 /***** Btn custom - mid 768 display *****/
-@media (max-width:768px){
-  .btn-custom {
-    max-width: 100%;
-  }
+
+@media (max-width:768px) {
+    .btn-custom {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:375px) {
+    .main-nadpis {
+        font-size: 1rem;
+    }
 }
